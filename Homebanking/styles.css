@@ -105,12 +105,9 @@ section {
 }
 
 @media (max-width: 768px) {
-  /* Oculta el sidebar */
   .sidebar {
       display: none;
   }
-  
-  /* Aumenta el ancho del contenido principal para ocupar el espacio del sidebar */
   .main-content {
       width: 100%;
       margin-left: 0;
