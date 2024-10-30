@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Contenedor principal */
+.container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Barra lateral */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 1rem;
+}
+
+.sidebar ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Panel de contenido principal */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f6f9;
+}
+
+/* Encabezado */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 1.5em;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 20px;
+}
+
+.account-summary {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.account-summary h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.balance span {
+  font-size: 1.5em;
+  color: #27ae60;
+}
+
+/* Tabla de transacciones recientes */
+.recent-transactions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recent-transactions th,
+.recent-transactions td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.recent-transactions th {
+  background-color: #bdc3c7;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.recent-transactions td {
+  color: #2c3e50;
+}

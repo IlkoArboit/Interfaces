@@ -1,25 +1,65 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Homebanking</title>
+    <title>Banko</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <h1>Homebanking</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Resumen de cuentas</h2>
-            <!-- Contenido de resumen de cuentas -->
-        </section>
-        <section>
-            <h2>Transacciones recientes</h2>
-            <!-- Contenido de transacciones -->
-        </section>
-    </main>
-    <a href="index.html" class="back-button">Volver a la selección</a>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Homebanking</h2>
+            <ul>
+                <li><a href="#">Resumen de Cuenta</a></li>
+                <li><a href="#">Transferencias</a></li>
+                <li><a href="#">Pagos y Servicios</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <header>
+                <h1>Bienvenido</h1>
+            </header>
+
+            <section class="account-summary">
+                <h2>Resumen de Cuenta</h2>
+                <div class="balance">
+                    <p>Saldo actual: <span>$250,000.00</span></p>
+                    <p>Cuenta: 1234-5678-9012</p>
+                </div>
+            </section>
+
+            <section class="recent-transactions">
+                <h2>Transacciones Recientes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Descripción</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-10-25</td>
+                            <td>Compra en Supermercado</td>
+                            <td>- $15000.00</td>
+                        </tr>
+                        <tr>
+                            <td>2024-10-23</td>
+                            <td>Transferencia recibida</td>
+                            <td>+ $5000.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
